@@ -9,5 +9,10 @@
 
 (format t "~d ~%" index)
 
+;;; normally 
 (print "The element is - ")
 (print (nth index  arr))
+
+;;; using car and cdr 
+(print "The element is (using car) - ")
+(print (car (nthcdr index arr)))
