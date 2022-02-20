@@ -1,0 +1,15 @@
+(print "Enter number: ")
+(terpri)
+(setq x  (read))
+(defun factorial(n)
+    (if (= n 1)
+            (setq a 1)
+    )
+    (if (> n 1)
+        (setq a (* n (factorial (- n 1))))
+    )
+    a 
+)
+(format t "~D! is " x)
+
+(write ((lambda (x) (factorial x)) x))
