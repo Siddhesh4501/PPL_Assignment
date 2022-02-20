@@ -10,6 +10,6 @@
     )
     a 
 )
-(format t "~D! is " x)
+(format t "~d! is " x)
 
 (write ((lambda (x) (factorial x)) x))
