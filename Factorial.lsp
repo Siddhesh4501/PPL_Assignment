@@ -2,7 +2,7 @@
 (terpri)
 (setq x  (read))
 (defun factorial(n)
-    (if (= n 1)
+    (if (or (= n 1) (= n 0))
             (setq a 1)
     )
     (if (> n 1)
